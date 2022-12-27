@@ -1,8 +1,11 @@
 import React from "react"
-
-const Contact = () => {
+// import Navbar from "./Navbar";
+const Contact = (props) => {
     return <>
-        <h1>Hello this is Himanshu Kothari +91 8779035327</h1>
+        {/* <Navbar /> */}
+        <div className="contact">
+            <h1>Hello this is {props.name} +91 8779035327</h1>
+        </div>
     </>
 }
 
